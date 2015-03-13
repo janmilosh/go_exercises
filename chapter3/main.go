@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println(32132*42452)
+    fmt.Println(len("hello world"))
+    fmt.Println("hello world"[1])
+    fmt.Println("hello" + " world")
 }
